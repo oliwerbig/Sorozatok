@@ -1,0 +1,16 @@
+2021.12.15
+Informatika dolgozat 11.A/C osztály
+
+Kedves Diákok!
+
+Az e_inf_20okt_fl PDF állományban lévő 
+4. feladattal kell foglalkozni!
+
+- készítsétek el a megfelelő C# alkalmazást
+- alakítsátok ki az adatok fogadásához szükséges osztályszerkezetet (elégséges szint)
+- olvassátok be az adatokat (közepes szint)
+- egy kiiratós feladattal meg van a jó szint
+- további feladat(ok) kellenek a jelesért
+NEM SZÜKSÉGES MINDEN FELADATOT MEGOLDANI!
+
+Jó munkát!
