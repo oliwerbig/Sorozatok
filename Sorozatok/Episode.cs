@@ -10,7 +10,7 @@ namespace Sorozatok
     {
         public bool HasReleaseDate { get; set; } = false;
         public Date ReleaseDate { get; set; } = new();
-        public string Title { get; set; } = "";
+        public string SeriesTitle { get; set; } = "";
         public int SeasonNumber { get; set; } = 0;
         public int EpisodeNumber { get; set; } = 0;
         public int LengthInMinutes { get; set; } = 0;
@@ -32,7 +32,7 @@ namespace Sorozatok
 
             HasReleaseDate = values[0] != "NI";
             ReleaseDate = HasReleaseDate ? new(values[0]) : null;
-            Title = values[1];
+            SeriesTitle = values[1];
             string[] SeasonAndEpisode = values[2].Split("x");
             SeasonNumber = int.Parse(SeasonAndEpisode[0]);
             EpisodeNumber = int.Parse(SeasonAndEpisode[1]);

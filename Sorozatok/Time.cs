@@ -40,7 +40,7 @@ namespace Sorozatok
             return TimeInMinutes % 60;
         }
 
-        public string getTimeAsString()
+        public string GetTimeAsString()
         {
             return GetHour().ToString() + ":" + GetMinute().ToString();
         }
